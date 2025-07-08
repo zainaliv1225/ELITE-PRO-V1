@@ -103,7 +103,7 @@ Paste this after the installation
 
 <p align="Left">
     <a align="center">
-  <a aria-label="WEBSITE" href="eliteprotech.zone.id" target="_blank">
+  <a aria-label="WEBSITE" href="https://eliteprotech.zone.id/" target="_blank">
     <img alt="ELITEPRO-WEB" src="https://img.shields.io/badge/ELITEPRO WEB-25D366?style=for-the-badge&logo=online&logoColor=white" />
 </a>
 <a aria-label="OTHER REPO" href="https://github.com/EliteProTech/Elite-Pro-V2" target="_blank">
