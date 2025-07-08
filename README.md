@@ -46,7 +46,7 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 
 ## DEPLOYMENT METHODS
 - Uploading session_id (creds.json) in session folder.
-- Edit Config.js or .env to your Choice.
+- Edit .env to your Choice.
 
 ---
 
