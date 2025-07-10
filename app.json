@@ -1,98 +1,114 @@
 {
   "name": "ElitePro WhatsApp Bot",
-  "description": "WhatsApp bot powered by Baileys and built by EliteProTech",
+  "description": "Deploy ELITE-PRO-V1 Baileys WhatsApp bot by EliteProTech",
   "env": {
     "YT_NAME": {
       "description": "YouTube channel name",
-      "value": "YT: @EliteProTech"
+      "required": true
     },
     "SOCIAL_M": {
       "description": "Social media info",
-      "value": "GitHub: EliteProTech"
+      "required": true
     },
     "LOCATION": {
       "description": "Your location",
-      "value": "Nigeria, Port Harcourt"
+      "required": true
     },
 
     "OWNER_NUMBER": {
       "description": "Bot owner's WhatsApp number",
-      "value": "2348109263390"
+      "required": true
     },
     "OWNER_NAME": {
       "description": "Bot owner's name",
-      "value": "ElitePro"
+      "required": true
     },
     "BOT_NAME": {
-      "description": "Bot name",
-      "value": "ELITE-PRO-V1"
+      "description": "Bot display name",
+      "required": true
     },
     "SESSION_ID": {
-      "description": "Your session ID",
+      "description": "Session string or JSON ID",
       "required": true
     },
 
     "PREFIX": {
-      "description": "Bot prefix",
-      "value": "."
+      "description": "Bot prefix (e.g., . or !)",
+      "required": true
     },
     "AUTO_RECORDING": {
-      "value": "false"
+      "description": "Auto recording? (true/false)",
+      "required": true
     },
     "AUTO_TYPING": {
-      "value": "false"
+      "description": "Auto typing? (true/false)",
+      "required": true
     },
     "AUTO_RECORD_TYPE": {
-      "value": "false"
+      "description": "Auto record type? (true/false)",
+      "required": true
     },
     "AUTO_READ": {
-      "value": "false"
+      "description": "Auto read messages? (true/false)",
+      "required": true
     },
     "AUTO_BIO": {
-      "value": "true"
+      "description": "Auto bio update? (true/false)",
+      "required": true
     },
     "ANTI_92": {
-      "value": "false"
+      "description": "Anti +92 spam? (true/false)",
+      "required": true
     },
     "AUTO_SW_VIEW": {
-      "value": "true"
+      "description": "Auto status view? (true/false)",
+      "required": true
     },
     "WELCOME": {
-      "value": "true"
+      "description": "Welcome new users? (true/false)",
+      "required": true
     },
     "AUTO_REACT": {
-      "value": "false"
+      "description": "Auto react to messages? (true/false)",
+      "required": true
     },
     "AUTO_LIKE_STATUS": {
-      "value": "true"
+      "description": "Auto like status? (true/false)",
+      "required": true
     },
 
     "ELITE_PRO_PP": {
-      "description": "Bot profile picture URL",
-      "value": "https://i.ibb.co/jk0ynvbn/7a8c4b5b617fa11a1e9a61190f427546.jpg"
+      "description": "Profile picture URL",
+      "required": true
     },
     "THEME_EMOJI": {
-      "value": "👨‍💻"
+      "description": "Theme emoji",
+      "required": true
     },
 
     "PACKNAME": {
-      "value": "Sticker By"
+      "description": "Sticker packname",
+      "required": true
     },
     "AUTHOR": {
-      "value": "ELITEPRO\\n\\nContact: +2348109263390"
+      "description": "Sticker author name",
+      "required": true
     },
 
     "TYPE_MENU": {
-      "value": "v2"
+      "description": "Menu type (e.g., v1, v2)",
+      "required": true
     },
     "WM": {
-      "value": "Youtube @EliteProTech"
+      "description": "Watermark/branding",
+      "required": true
     },
     "LINK": {
-      "value": "https://whatsapp.com/channel/0029VaXaqHII1rcmdDBBsd3g"
+      "description": "Channel or group invite link",
+      "required": true
     }
   },
   "scripts": {
-    "postdeploy": "echo ElitePro WhatsApp Bot has been deployed!"
+    "postdeploy": "echo ✅ ElitePro WhatsApp Bot Deployed Successfully!"
   }
 }
