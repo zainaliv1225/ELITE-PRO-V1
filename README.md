@@ -59,11 +59,11 @@ DON'T FORGET TO FORK 🍴 & STAR 🌟 OUR REPO🫠
 ---
 
 ## OTHER DEPLOYMENT PLATFORMS
-- **[BOT-HOSTING.NET](https://bot-hosting.net/)**
-- **[Render](https://render.com)**
-- **[Katabump](https://dashboard.katabump.com/auth/login)**
-- **[Optiklink](https://optiklink.com/)**
-
+- **Deploy on [Render](https://render.com)**
+- **Deploy on [Katabump](https://dashboard.katabump.com/auth/login)**
+- **Deploy on [Optiklink](https://optiklink.com/)**
+- **Deploy on [Heroku](https://dashboard.heroku.com/new?template=https://github.com/EliteProTech/ELITE-PRO-V1)**
+- **Deploy on [BOT-HOSTING.NET](https://bot-hosting.net/)**
 ---
 
 ## FOR TERMUX/SSH/UBUNTU
